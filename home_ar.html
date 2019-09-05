@@ -56,7 +56,7 @@
 										<i class="fas fa-envelope-square hd-up-phone hidden-sm hidden-md hidden-lg"><span class="sr-only">الإيميل </span></i>
 									</a>
 								</li>
-                                <li><a href="home.html"> For english </a></li>
+                                <li><a href="home.html">ُE</a></li>
 							</ul>
 						</div>
 						<div class="col-xs-3 col justify-end">
@@ -136,13 +136,17 @@
 						<form action="#" class="align learn-search-form text">
 							<h1>أبحث عن الكورس المناسب لك الآن</h1>
 							<p>يمكنك البحث عن الكورس المطلوب هنا </p>
-							<div class="input-group">
-								<input type="text" class="form-control" placeholder="بماذا ترغب فى التعلم اليوم?">
-							</div>
+							
 							<!-- learning cources list -->
 							<ul class="list-unstyled learning-cources-list text-left">
+                                <li>
+                                <div class="input-group">
+								<input type="text" class="form-control" placeholder="بماذا ترغب فى التعلم اليوم?">
+							    </div>
+                                </li>
+                                <li>
 								<div class="input-group">
-                                <input list="governorate" placeholder="المحافظة"> 
+                                <input list="governorate" class="form-control" placeholder="المحافظة"> 
 								<datalist id="governorate"> 
                                     <option value="القاهرة"/> 
                                     <option value="الأسكندرية"/> 
@@ -150,23 +154,32 @@
                                     <option value="الشرقية"/> 
                                     <option value="المنوفية"/> 
                                 </datalist> 
-							</div>
+							    </div>
+                                </li>
+                                <li>
 								<div class="input-group">
 								<input type="date" class="form-control" placeholder="تاريخ الكورس">
-							</div>
+							    </div>
+                                </li>
+                                <li>
 								<div class="input-group">
 								<input type="text" class="form-control" placeholder="التخصص">
-							</div>
+							     </div>
+                                </li>
+                                <li>
                                 <div class="input-group">
 								<input type="text" class="form-control" placeholder="أسم الكورس">
-							</div>
+							    </div>
+                                </li>
+                                <li>
                                 <div class="input-group">
 								<input type="number" class="form-control" placeholder="متوسط السعر">
-							</div>
-                                	<span class="input-group-btn">
+							     </div>
+                                </li>
+							</ul>
+                            	<span class="input-group-btn">
 									<button class="btn btn-warning btn-theme" type="button"><i class="fas fa-search" onclick="alert('تم البحث')"></i></button>
 								</span>
-							</ul>
 						</form>
 					</div>
 				</div>

@@ -54,7 +54,7 @@
 										<i class="fas fa-envelope-square hd-up-phone hidden-sm hidden-md hidden-lg"><span class="sr-only">email</span></i>
 									</a>
 								</li>
-                                <li><a href="home_ar.html"> العربية</a></li>
+                                <li><a href="home_ar.html"> ع </a></li>
 							</ul>
 						</div>
 						<div class="col-xs-3 col justify-end">
@@ -133,13 +133,17 @@
 						<form action="#" class="align learn-search-form text">
 							<h1>Search for your course today</h1>
 							<p>You can search for your course here </p>
-							<div class="input-group">
-								<input type="text" class="form-control" placeholder="What do you want to learn today?">
-							</div>
+							
 							<!-- learning cources list -->
 							<ul class="list-unstyled learning-cources-list text-left">
+                                <li>
+                                <div class="input-group">
+								<input type="text" class="form-control" placeholder="What do you want to learn today?">
+							     </div>
+                                </li>
+                                <li>
 							     <div class="input-group">
-                                <input list="governorate" placeholder="governorate"> 
+                                <input list="governorate" class="form-control" placeholder="governorate"> 
 								<datalist id="governorate"> 
                                     <option value="Cairo"/> 
                                     <option value="Alexandria"/> 
@@ -148,22 +152,31 @@
                                     <option value="Al monofya"/> 
                                 </datalist> 
 							</div>  
+                                </li>
+                                <li>
 								<div class="input-group">
-								<input type="date" class="form-control" placeholder="Course date">
+								<input type="date" class="form-control">
 							</div>
+                                </li>
+                                <li>
 								<div class="input-group">
 								<input type="text" class="form-control" placeholder="Speciality">
-							</div>
+							     </div>
+                                </li>
+                                <li>
                                 <div class="input-group">
 								<input type="text" class="form-control" placeholder="Course name ">
-							</div>
+							     </div>
+                                </li>
+                                <li>
                                 <div class="input-group">
 								<input type="number" class="form-control" placeholder="Average price">
-							</div>
-                                <span class="input-group-btn">
+							     </div>
+                                </li>
+							</ul>
+                             <span class="input-group-btn">
 									<button class="btn btn-warning btn-theme" type="button"><i class="fas fa-search" onclick= "alert('Started search')"></i></button>
 								</span>
-							</ul>
 						</form>
 					</div>
 				</div>
